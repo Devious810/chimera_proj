@@ -1,14 +1,13 @@
-﻿# Chimera Project
+﻿# Chimera_Proj
 
-CLI per:
-- prompt chimici (it/en)
-- ricerca RAG su PDF
-- modello offline GPT4All (Phi3 mini)
+**Descrizione**  
+CLI offline per chimica: titolazioni, distillazioni, RAG su PDF, ecc.
 
-## Avvio rapido
+## ⏯️ Installazione
 
-1. Attiva virtualenv:
-2. Installa dipendenze:
-3. Crea indice PDF (una volta):
-4. Lancia la CLI:
-
+```bash
+git clone https://github.com/Devious810/chimera_proj.git
+cd chimera_proj
+python -m venv venv
+.\venv\Scripts\Activate.ps1   # PowerShell
+pip install -r requirements.txt
